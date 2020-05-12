@@ -1,0 +1,86 @@
+{
+	"name": "Schema",
+	"title": "My_schema",
+	"description": "schema sur les données concernant les depenses d'éducation",
+	"fields": [
+		{
+			"name": "HDI rank",
+			"title": "Rank of each country according to the human Developpement index",
+			"type": "integer",
+			"description": "Classement de chaque pays selon l'indice de développement humain."
+		},
+		{
+			"name": "country",
+			"title": "the countries concerned by the study",
+			"type": "string",
+			"description": "les pays concernés par cette etude."
+		},
+		{
+			"name": "HDI level",
+			"title": "HDI level of each country",
+			"type": "string",
+			"description": "le niveau de l'IDH pour chaque pays."
+		},
+		{
+			"name": "PEE _% _GDP_1991",
+			"title": "Public expenditure on education  As a % of GDP 1991",
+			"type": "number",
+			"description": "les Dépenses publiques d'éducation effectuées par l'Etat en% du PIB en 1991."
+		},
+		{
+			"name": "PEE _% _GDP_2002_2005b",
+			"title": "Public expenditure on education  As a % of GDP 2002-05 b",
+			"type": "number",
+			"description": "les Dépenses publiques d'éducation effectuées par l'Etat en% du PIB 2002-05 b."
+		},
+		{
+			"name": "PEE _% _TGE_1991",
+			"title": "Public expenditure on education  As a % of total government expenditure 1991",
+			"type": "number",
+			"description": "Dépenses publiques d'éducation En% des dépenses publiques totales 1991."
+		},
+		{
+			"name": "PEE _% _TGE_2002_2005b",
+			"title": "Public expenditure on education  As a % of total government expenditure 2002-05 b",
+			"type": "number",
+			"description": "Dépenses publiques d'éducation En% des dépenses publiques totales 2002-05 b."
+		},
+		{
+			"name": "current_PEE_by_primary_1991",
+			"title": "Current public expenditure on education by levela(% of total current public expenditure on education) Pre-primary and primary 1991.",
+			"type": "number",
+			"description": "Dépenses publiques courantes d'éducation par niveaua (% des dépenses publiques courantes totales d'éducation) Préprimaire et primaire 1991."
+		},
+		{
+			"name": "current_PEE_by_primary_2002_2005b",
+			"title": "Current public expenditure on education by levela(% of total current public expenditure on education) Pre-primary and primary 2002-05 b",
+			"type": "number",
+			"description": "Dépenses publiques courantes d'éducation par niveaua (% des dépenses publiques courantes totales d'éducation) Préprimaire et primaire 2002-05 b."
+		},
+		{
+			"name": "current_PEE_by_secondary_1991",
+			"title": "Current public expenditure on education by levela(% of total current public expenditure on education) Secondary and post-secondary non-tertiary 1991.",
+			"type": "number",
+			"description": "Dépenses publiques courantes d'éducation par niveaua (% des dépenses publiques courantes totales d'éducation) Secondaire et post-secondaire non tertiaire 1991."
+		},
+		{
+			"name": "current_PEE_by_secondary_2002_2005b",
+			"title": "Current public expenditure on education by levela(% of total current public expenditure on education) Secondary and post-secondary non-tertiary 2002-05 b ",
+			"type": "number",
+			"description": "Dépenses publiques courantes d'éducation par niveaua (% des dépenses publiques courantes totales d'éducation) Secondaire et post-secondaire non tertiaire 2002-05 b.",
+		},
+		{
+			"name": "current_PEE_by_Tertiary_1991",
+			"title": "Current public expenditure on education by levela(% of total current public expenditure on education) Tertiary  1991  ",
+			"type": "number",
+			"description": "Dépenses publiques courantes d'éducation par niveaua (% des dépenses publiques courantes totales d'éducation) Tertiaire 1991.",
+		},
+		{
+			"name": "current_PEE_by_Tertiary_2002_2005b",
+			"title": "Current public expenditure on education by levela(% of total current public expenditure on education) Tertiary  2002-05 b ",
+			"type": "number",
+			"description": "Dépenses publiques courantes d'éducation par niveaua (% du total des dépenses publiques courantes d'éducation) Tertiaire 2002-05 b.",
+		}
+	],
+	"missingValues": ["NaN", ".."]
+}
